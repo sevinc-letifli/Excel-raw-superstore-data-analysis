@@ -1,2 +1,8 @@
-# Excel-raw-superstore-data-analysis
-Excel-based sales analysis project including data cleaning, lookup formulas, pivot tables, business analysis and dashboard creation.
+Layihə çərçivəsində Superstore satış datası üzərində tam data analiz prosesi həyata keçirildi.
+İlk mərhələdə Orders, Products, People və Returns cədvəlləri üzərində data cleaning prosesi aparıldı. Bu mərhələdə dublikat məlumatlar, boş xanalar, format problemləri, mətn və tarix formatları yoxlanıldı və düzəlişlər edildi. Həmçinin Row ID sütununda təkrarlanan dəyərlər aşkar edilərək düzəldildi.
+Daha sonra cədvəllər arasında əlaqə yaradılaraq Orders cədvəlinə əlavə məlumatlar gətirildi. Bunun üçün VLOOKUP və INDEX-MATCH funksiyalarından istifadə edildi. Products cədvəlindən Supplier, Unit Cost və Target Margin məlumatları, Returns cədvəlindən geri qaytarılma statusu, People cədvəlindən isə Regional Manager məlumatları əlavə edildi. Bu məlumatların əlavə olunmasında məqsəd satış, gəlirlilik, supplier performansı, məhsul analizi və regional performansın daha dərin araşdırılması idi.
+Növbəti mərhələdə biznes suallarına cavab vermək üçün Pivot Table analizləri hazırlandı. Regionlar üzrə satış və mənfəət analizi, məhsul kateqoriyalarının performans müqayisəsi və supplier-lərin satış və gəlirliliyə təsiri araşdırıldı.
+Daha sonra SUMIFS, COUNTIFS, IF və IFS funksiyalarından istifadə edilərək əlavə hesablama sahələri yaradıldı. Məhsulların target margin ilə müqayisəsi, profit kateqoriyaları, region satışları və qaytarılan məhsulların analizi həyata keçirildi.
+Son mərhələdə nəticələri daha vizual təqdim etmək üçün dashboard hazırlandı. Dashboard-da region performansı, kateqoriya analizi və supplier performansını göstərən qrafiklər yaradıldı və istifadəçinin məlumatları daha rahat filtr etməsi üçün slicer-lər əlavə edildi.
+Ümumilikdə layihənin məqsədi xam satış datasını təmizləyərək, biznes qərarlarının verilməsini dəstəkləyən strukturlaşdırılmış analiz və dashboard həllinə çevirmək olmuşdur.
+
