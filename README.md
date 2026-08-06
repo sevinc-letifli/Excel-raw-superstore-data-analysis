@@ -1,10 +1,10 @@
-# 📊 Superstore Sales Analysis
-## 📌 Layihə haqqında
+# Superstore Sales Analysis
+## Layihə haqqında
 
 Bu layihə Microsoft Excel istifadə edilərək hazırlanmış end-to-end satış analizi layihəsidir. Layihənin əsas məqsədi xam satış məlumatlarını təmizləmək, strukturlaşdırmaq, müxtəlif mənbələrdən məlumatları birləşdirmək, biznes suallarına cavab verən analizlər aparmaq və interaktiv dashboard hazırlamaqdır.
 Analiz nəticəsində şirkətin satış performansı, mənfəətlilik göstəriciləri, regionlar üzrə nəticələr, məhsul kateqoriyalarının performansı və supplier təsiri qiymətləndirilmişdir.
 
-# 🎯 Layihənin məqsədi
+# Layihənin məqsədi
 
 Bu layihə aşağıdakı biznes suallarına cavab vermək məqsədilə hazırlanmışdır:
 
@@ -15,7 +15,7 @@ Bu layihə aşağıdakı biznes suallarına cavab vermək məqsədilə hazırlan
 - Satış nəticələri şirkətin hədəf mənfəət marjasına uyğundurmu?
 - Geri qaytarılan məhsullar hansı kateqoriyalarda daha çox müşahidə olunur?
 
-# 📂 Dataset
+# Dataset
 
 Layihədə Superstore satış datasından istifadə edilmişdir.
 
@@ -27,7 +27,7 @@ Dataset aşağıdakı cədvəllərdən ibarətdir:
 - **Returns** – geri qaytarılan sifariş məlumatları
 
 
-# 🧹 Data Cleaning prosesi
+# Data Cleaning prosesi
 
 Analizdən əvvəl məlumat keyfiyyətinin artırılması üçün aşağıdakı təmizləmə əməliyyatları həyata keçirilmişdir:
 
@@ -51,7 +51,7 @@ Analizdən əvvəl məlumat keyfiyyətinin artırılması üçün aşağıdakı 
 ![Spelling Correction](screenshots/spelling_correction.png)
 
 
-# 🔗 Data Integration (Lookup funksiyaları)
+# Data Integration (Lookup funksiyaları)
 
 Analiz imkanlarını artırmaq üçün müxtəlif sheet-lərdən əlavə məlumatlar Orders cədvəlinə birləşdirilmişdir. Əlavə edilən məlumatlar Supplier, Unit Cost, Target Margin, Returned Status, Regional Manager olmuşdur.Bu məlumatlar məhsul gəlirliliyi, supplier performansı və regional analizlərin daha dərin aparılmasına imkan yaratmışdır.
 
@@ -63,7 +63,7 @@ Analiz imkanlarını artırmaq üçün müxtəlif sheet-lərdən əlavə məluma
 - IFERROR
 
 
-# 🧮 Calculated Fields
+# Calculated Fields
 
 Analiz üçün əlavə hesablanan sütunlar yaradılmışdır.
 
@@ -82,7 +82,7 @@ Faktiki mənfəət marjasının şirkətin hədəf göstəricilərinə uyğunlu�
 Məhsullar gəlirlilik səviyyəsinə görə qruplaşdırılmışdır: High Profit, Medium Profit, Low Profit, Loss Making. Bu təsnifat aşağı performans göstərən məhsulların müəyyən edilməsini asanlaşdırır.
 
 
-# 📊 Pivot Table Analizi
+# Pivot Table Analizi
 
 Biznes suallarına cavab vermək üçün Pivot Table-lardan istifadə edilmişdir.
 
@@ -139,7 +139,7 @@ Supplier-lərin satış və mənfəət göstəricilərinə təsiri araşdırılm
 ![Supplier Analysis](screenshots/pivot_supplier.png)
 
 
-# 📈 Dashboard
+# Dashboard
 
 Analiz nəticələrini daha rahat təqdim etmək üçün Excel dashboard hazırlanmışdır.
 
@@ -153,7 +153,7 @@ Dashboard aşağıdakı göstəriciləri əhatə edir:
 ![Dashboard](screenshots/dashboards.png)
 
 
-# 💡 Əsas biznes nəticələri və tövsiyələr
+# Əsas biznes nəticələri və tövsiyələr
 
 ## Region analizi
  West regionu liderdir, Central regionunda isə gəlirlilik problemi mövcuddur. Buna görə də Central regionunda qiymət siyasəti, endirim strategiyası, məhsul portfeli yenidən analiz edilməlidir. Həmçinin, West regionunda uğurlu satış strategiyaları digər regionlarda tətbiq edilə bilər.
@@ -169,7 +169,7 @@ Technology ən gəlirli kateqoriyadır, Furniture isə optimallaşdırmaya ehtiy
 Yüksək mənfəət gətirən supplier-lərlə əməkdaşlıq genişləndirilməli, aşağı gəlirlilik yaradan supplier-lərlə satınalma şərtləri yenidən nəzərdən keçirilməlidir.
 
 
-# 🛠 İstifadə olunan Excel bacarıqları
+# İstifadə olunan Excel bacarıqları
 
 Bu layihədə aşağıdakı Excel bacarıqlarından istifadə edilmişdir:
 
